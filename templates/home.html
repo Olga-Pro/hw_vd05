@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2 class="text-center">Мои успехи в Zerocoder</h2>
+  <!-- Блок с карточками -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../static/image/Диплом моб.интенсив.png" class="card-img-top" alt="Фото 1">
+          <div class="card-body">
+            <h5 class="card-title">Интенсив по разработке мобильных приложений</h5>
+            <p class="card-text">...</p>
+            <a href="https://zerocoder.ru/intensive-mobile-application-development-course?param=main_page/" class="btn btn-primary" target="_blank">Cтраница интенсива</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../static/image/Диплом веб-интенсив.png" class="card-img-top" alt="Фото 2">
+          <div class="card-body">
+            <h5 class="card-title">Интенсив по веб-разработке</h5>
+            <p class="card-text">...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="../static/image/Диплом гр. python.png" class="card-img-top" alt="Фото 3">
+          <div class="card-body">
+            <h5 class="card-title">Участие в групповой разработке на Python</h5>
+            <p class="card-text">...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
